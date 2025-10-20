@@ -3,3 +3,11 @@ __pycache__/
 .env
 .vscode/
 .DS_Store
+.venv/
+venv/
+
+# Python generated files
+*.egg-info/
+dist/
+build/
+
