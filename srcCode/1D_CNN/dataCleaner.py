@@ -109,14 +109,17 @@ def preprocess_data(df: pd.DataFrame) -> pd.DataFrame:
 
     # Add this diagnostic to see individual bin patterns
     print("\n=== INDIVIDUAL BIN ANALYSIS ===")
-    for bin_id in df['serialNumber'].unique()[:5]:  # Check first 5 bins
-        bin_data = df[df['serialNumber'] == bin_id]
+    for bin_id in df["serialNumber"].unique()[:5]:  # Check first 5 bins
+        bin_data = df[df["serialNumber"] == bin_id]
         print(
-            f"Bin {bin_id}: {len(bin_data)} records, fullness range: [{bin_data['latestFullness'].min():.1f}, {bin_data['latestFullness'].max():.1f}]")
+            f"Bin {bin_id}: {len(bin_data)} records, fullness range: [{bin_data['latestFullness'].min():.1f}, {bin_data['latestFullness'].max():.1f}]"
+        )
     return daily_data
 
 
-def create_individual_bin_sequences(df: pd.DataFrame, n_steps: int=30) -> tuple[np.ndarray, np.ndarray, list]:
+def create_individual_bin_sequences(
+    df: pd.DataFrame, n_steps: int = 30
+) -> tuple[np.ndarray, np.ndarray, list]:
     """
     Create sequences for each bin individually and combine them
     Args:
@@ -131,17 +134,17 @@ def create_individual_bin_sequences(df: pd.DataFrame, n_steps: int=30) -> tuple[
 
     print("Processing individual bins...")
 
-    for i, bin_id in enumerate(df['serialNumber'].unique()):
+    for i, bin_id in enumerate(df["serialNumber"].unique()):
         # Get data for this specific bin
-        bin_data = df[df['serialNumber'] == bin_id].copy()
-        bin_data = bin_data.sort_values('timestamp')
+        bin_data = df[df["serialNumber"] == bin_id].copy()
+        bin_data = bin_data.sort_values("timestamp")
 
         # Convert to daily data (in case of multiple readings per day)
-        bin_data['date'] = pd.to_datetime(bin_data['timestamp']).dt.date
-        daily_bin_data = bin_data.groupby('date')['latestFullness'].last().reset_index()
-        daily_bin_data = daily_bin_data.sort_values('date')
+        bin_data["date"] = pd.to_datetime(bin_data["timestamp"]).dt.date
+        daily_bin_data = bin_data.groupby("date")["latestFullness"].last().reset_index()
+        daily_bin_data = daily_bin_data.sort_values("date")
 
-        fullness_values = daily_bin_data['fullness'].values.reshape(-1, 1)
+        fullness_values = daily_bin_data["fullness"].values.reshape(-1, 1)
 
         if len(fullness_values) > n_steps + 10:  # Ensure enough data
             # Scale per bin
@@ -158,7 +161,8 @@ def create_individual_bin_sequences(df: pd.DataFrame, n_steps: int=30) -> tuple[
 
             if i < 5:  # Print first 5 bins for debugging
                 print(
-                    f"  Bin {bin_id}: {len(X_bin)} sequences, fullness range: [{fullness_values.min():.1f}, {fullness_values.max():.1f}]")
+                    f"  Bin {bin_id}: {len(X_bin)} sequences, fullness range: [{fullness_values.min():.1f}, {fullness_values.max():.1f}]"
+                )
 
     # Combine all bins
     if all_X:
@@ -173,6 +177,7 @@ def create_individual_bin_sequences(df: pd.DataFrame, n_steps: int=30) -> tuple[
         return X_combined, y_combined, all_bin_ids
     else:
         raise ValueError("No valid sequences created!")
+
 
 def create_sequences(data: np.ndarray, n_steps: int) -> tuple[np.ndarray, np.ndarray]:
     """
