@@ -1,0 +1,544 @@
+{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6614092517, -37.9007616667 ]
+			},
+			"properties" : {
+				"latestFullness" : 10,
+				"reason" : "ALERT",
+				"serialNumber" : 1511191,
+				"description" : "Cash Converters G Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.66128, -37.900181 ]
+			},
+			"properties" : {
+				"latestFullness" : 4,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511192,
+				"description" : "General Practice R Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6575503108, -37.9030024868 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511193,
+				"description" : "Wedge St Piazza G Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.7354966667, -37.88338 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511194,
+				"description" : "Ally Fashion G Point Cook",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.7351407368, -37.8832200529 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511195,
+				"description" : "Nandos G Point Cook",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.7351416667, -37.8841133333 ]
+			},
+			"properties" : {
+				"latestFullness" : 4,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511196,
+				"description" : "Woolworths G Point Cook",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6619166667, -37.9011583333 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511197,
+				"description" : "Ballan House G Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6611494901, -37.9013174858 ]
+			},
+			"properties" : {
+				"latestFullness" : 2,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511198,
+				"description" : "79 Watton St G Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.7352828938, -37.8827389697 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511199,
+				"description" : "Coles G Point Cook",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6607366667, -37.9016183333 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511200,
+				"description" : "Watton Plaza G Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6603083333, -37.9020383333 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511201,
+				"description" : "Commercial Hotel G Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.661445, -37.9000316667 ]
+			},
+			"properties" : {
+				"latestFullness" : 4,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511203,
+				"description" : "Proven Training G Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6619166667, -37.9006433333 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511204,
+				"description" : "Hockingstuart G Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6613755151, -37.9011926717 ]
+			},
+			"properties" : {
+				"latestFullness" : 8,
+				"reason" : "FULLNESS",
+				"serialNumber" : 1511205,
+				"description" : "Park Hotel G Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6607583333, -37.901555 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511206,
+				"description" : "Watton Plaza R Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6602866667, -37.9020266667 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511207,
+				"description" : "Commercial Hotel R Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.735345, -37.8827266667 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511208,
+				"description" : "Coles R Point Cook",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6602679348, -37.9018541015 ]
+			},
+			"properties" : {
+				"latestFullness" : 4,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511209,
+				"description" : "Bendigo Bank R Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6575183333, -37.903025 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511210,
+				"description" : "Wedge St Piazza R Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6614327211, -37.9007198946 ]
+			},
+			"properties" : {
+				"latestFullness" : 2,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511211,
+				"description" : "Cash Converters R Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.66128, -37.900181 ]
+			},
+			"properties" : {
+				"latestFullness" : 2,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511212,
+				"description" : "General Practice R Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6611613075, -37.9013126406 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511213,
+				"description" : "79 Watton St R Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.7354533333, -37.883445 ]
+			},
+			"properties" : {
+				"latestFullness" : 4,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511214,
+				"description" : "Ally Fashion R Point Cook",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.7351335129, -37.884073105 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511215,
+				"description" : "Woolworths R Point Cook",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.661874373, -37.9005884942 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511216,
+				"description" : "Hockingstuart R Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6619360691, -37.901148703 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511217,
+				"description" : "Ballan House R Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.7356466667, -37.882425 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511218,
+				"description" : "Aldi R Point Cook",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6614718221, -37.9000687209 ]
+			},
+			"properties" : {
+				"latestFullness" : 8,
+				"reason" : "FULLNESS",
+				"serialNumber" : 1511219,
+				"description" : "Proven Training R Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.7352166667, -37.88323 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511220,
+				"description" : "Nandos R Point Cook",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6614036347, -37.9011767991 ]
+			},
+			"properties" : {
+				"latestFullness" : 4,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511221,
+				"description" : "Park Hotel R Werribee",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.6601949611, -37.9018111375 ]
+			},
+			"properties" : {
+				"latestFullness" : 0,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1510830,
+				"description" : "Bendigo Bank G Werribee - General Waste",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 6,
+				"timestamp" : "2019-01-24"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.7356233333, -37.8825216667 ]
+			},
+			"properties" : {
+				"latestFullness" : 4,
+				"reason" : "NOT_READY",
+				"serialNumber" : 1511190,
+				"description" : "Aldi G Point Cook",
+				"position" : "center",
+				"ageThreshold" : 0,
+				"fullnessThreshold" : 8,
+				"timestamp" : "2019-01-24"
+			}
+		},
