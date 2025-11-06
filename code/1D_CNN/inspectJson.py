@@ -108,6 +108,6 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         filepath = sys.argv[1]
     else:
-        filepath = "/home/matteo/Bureau/FIB/cours/ISP/ISP_Project/data/wyndham_smartbin_filllevel.json"
+        filepath = "/data/wyndham_smartbin_filllevel.json"
 
     inspect_json_structure(filepath)

@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 import json
+from sklearn.preprocessing import MinMaxScaler
+from typing import Tuple, List
 
 
 def load_json_data(filepath: str) -> pd.DataFrame:

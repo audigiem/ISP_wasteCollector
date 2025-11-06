@@ -242,17 +242,17 @@ def main(json_filepath: str) -> tuple[keras.Model, keras.callbacks.History, dict
 
 if __name__ == "__main__":
     # Replace with your actual JSON file path
-    JSON_FILEPATH = "/home/matteo/Bureau/FIB/cours/ISP/ISP_Project/data/wyndham_smartbin_filllevel.json"
+    JSON_FILEPATH = "data/wyndham_smartbin_filllevel.json"
 
     try:
         model, history, scalers_dict = main(JSON_FILEPATH)
-        print("\n✓ Individual bin 1D CNN implementation completed successfully!")
-        print(f"✓ Trained on {len(scalers_dict)} individual bins")
+        print("\n Individual bin 1D CNN implementation completed successfully!")
+        print(f" Trained on {len(scalers_dict)} individual bins")
     except FileNotFoundError:
-        print(f"\n✗ Error: File '{JSON_FILEPATH}' not found.")
+        print(f"\n Error: File '{JSON_FILEPATH}' not found.")
         print("   Please update JSON_FILEPATH with the correct path to your data file.")
     except Exception as e:
-        print(f"\n✗ Error occurred: {str(e)}")
+        print(f"\n Error occurred: {str(e)}")
         import traceback
 
         traceback.print_exc()
