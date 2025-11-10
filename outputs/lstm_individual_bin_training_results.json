@@ -1,0 +1,24 @@
+{
+  "model": "LSTM",
+  "training_metrics": {
+    "MAE": 1.8071301779015065,
+    "MAPE": 0.3999780627119836,
+    "RMSE": 2.3667478323041014,
+    "R2": 0.48344982099918266
+  },
+  "test_metrics": {
+    "MAE": 1.9590161640617931,
+    "MAPE": 0.4209780127145537,
+    "RMSE": 2.571427683166212,
+    "R2": 0.4193746165211044
+  },
+  "training_config": {
+    "epochs": 20,
+    "batch_size": 70,
+    "sequence_length": 30,
+    "total_sequences": 31403,
+    "train_sequences": 25110,
+    "test_sequences": 6293,
+    "num_bins": 31
+  }
+}

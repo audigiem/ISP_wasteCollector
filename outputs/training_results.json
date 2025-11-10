@@ -1,0 +1,33 @@
+{
+  "training_metrics": {
+    "MAE": 1.5337655913015016,
+    "MAPE": 0.33889822303697575,
+    "RMSE": 2.0616989578273626,
+    "R2": 0.6080243913707912
+  },
+  "test_metrics": {
+    "MAE": 1.874627864530824,
+    "MAPE": 0.402411889828731,
+    "RMSE": 2.526268270168564,
+    "R2": 0.43958942378920396
+  },
+  "training_config": {
+    "epochs": 20,
+    "batch_size": 70,
+    "sequence_length": 30,
+    "total_sequences": 31403,
+    "train_sequences": 25110,
+    "test_sequences": 6293,
+    "num_bins": 31
+  },
+  "paper_comparison": {
+    "paper_train_mae": 0.667,
+    "paper_train_mape": 3.17,
+    "paper_train_rmse": 1.128,
+    "paper_train_r2": 0.274,
+    "paper_test_mae": 0.677,
+    "paper_test_mape": 3.678,
+    "paper_test_rmse": 1.132,
+    "paper_test_r2": 0.269
+  }
+}
